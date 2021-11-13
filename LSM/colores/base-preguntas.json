@@ -1,0 +1,93 @@
+[
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Amarillo",
+        "incorrecta1": "Verde",
+        "incorrecta2": "Morado",
+        "incorrecta3": "Rojo",
+        "imagen": "img de colores/amarillo.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Azul",
+        "incorrecta1": "Gris",
+        "incorrecta2": "Morado",
+        "incorrecta3": "Amarillo",
+        "imagen": "img de colores/azul.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Cafe",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Rojo",
+        "incorrecta3": "Amarillo",
+        "imagen": "img de colores/cafe.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Gris",
+        "incorrecta1": "Gris",
+        "incorrecta2": "Negro",
+        "incorrecta3": "Rosa",
+        "imagen": "img de colores/gris.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Morado",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Rojo",
+        "incorrecta3": "Amarillo",
+        "imagen": "img de colores/morado.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Negro",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Verde",
+        "incorrecta3": "Cafe",
+        "imagen": "img de colores/negro.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Rojo",
+        "incorrecta1": "Morado",
+        "incorrecta2": "Verde",
+        "incorrecta3": "Amarillo",
+        "imagen": "img de colores/rojo.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Rosa",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Verde",
+        "incorrecta3": "Negro",
+        "imagen": "img de colores/rosa.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Colores",
+        "pregunta": "¿Que color muestra la imagen?",
+        "respuesta": "Verde",
+        "incorrecta1": "Azul",
+        "incorrecta2": "Negro",
+        "incorrecta3": "Gris",
+        "imagen": "img de colores/verde.png",
+        "objectFit": "cover"
+    }
+    
+]

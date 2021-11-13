@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jugar con Señas</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+
+</head>
+
+<body>
+
+    <style>
+        * {
+            transition: all 0.3s;
+        }
+        
+        body {
+            background: blue;
+            background-image: url("img de numero/num.jpg");
+            padding: 50px;
+            margin: 100px;
+            text-align: center;
+            font-family: calibri;
+            font-size: 120%;
+        }
+        
+        .contenedor {
+            width: 600px;
+            height: 1000px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .opcion {
+            background: aquamarine;
+            min-width: 500px;
+            width: 10%;
+            max-width: 800px;
+            height: 2000px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .encabezado {
+            background: aquamarine;
+            min-width: 500px;
+            width: 50%;
+            max-width: 500px;
+            padding: 50px;
+        }
+        
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+        
+        .pregunta {
+            padding: 10px;
+        }
+        
+        .imagen {
+            object-fit: cover;
+            height: 150px;
+            width: 1900px;
+        }
+        
+        .btn {
+            background: #F6A9A9;
+            width: 60%;
+            max-width: 550px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .numero {
+            position: absolute;
+            opacity: 0.3;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .puntaje {
+            padding: 5px;
+            color: black;
+        }
+    </style>
+    <br/>
+    <br/>
+    <br/>
+
+
+    <div class="contenedor">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="encabezado">
+            <div class="puntaje" id="puntaje"></div>
+            <div class="categoria" id="categoria">
+            </div>
+            <div class="numero" id="numero"></div>
+            <div class="pregunta" id="pregunta">
+            </div>
+            <img src="#" class="imagen" id="imagen">
+        </div>
+
+        <div class="opcion">
+            <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+            <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+            <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+            <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+        </div>
+        <br/>
+        <br/>
+        <br/> <br/>
+
+
+        <script src="js/index.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
